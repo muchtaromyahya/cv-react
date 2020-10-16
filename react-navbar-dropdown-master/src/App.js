@@ -14,7 +14,11 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
+      <Home/>
+       <Marketing/> {/* for skill */}
+      <Products/> {/* for Experience */}
+      <ContactUs/>
+      {/* <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
         <Route path='/products' component={Products} />
@@ -22,7 +26,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
         <Route path='/marketing' component={Marketing} />
         <Route path='/consulting' component={Consulting} />
-      </Switch>
+      </Switch> */}
     </Router>
   );
 }
