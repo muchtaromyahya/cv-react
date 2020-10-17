@@ -2,7 +2,7 @@ import React from 'react';
 // import '../../App.css';
 import './home.css'
 import image from './assets/IMG_20201009_204855.jpg';
-import education from './assets/education.png';
+
 
 
 export default function Home() {
@@ -31,31 +31,7 @@ export default function Home() {
               </div></div>
           </div>
         </div>
-      </div>
-      <div className="education"> 
-        <div className="container">
-        <div className="title">
-              <h1 className="section">Education</h1>
-            </div>
-          <div className="row">
-            <div className="col-sm-6">
-              <h1 className="education-content">
-                Bachelor of Informatic Engineering Telkom University 2021. Focus on Website Developer, Responsive Design, and RESTfull API
-              </h1>
-              <h1 className="education-content">
-                Member of Research Group and Laboratory Assistant at RPLGDC Laboratory Telkom Universty 2019-2021
-              </h1>
-            </div>
-            <div className="col-sm-6">
-                <div className="center">
-                  <img src={education}  className="icon-education"/>
-                </div>
-            </div>
-          
-        </div>
-        </div>
-      </div>
-      
+      </div>      
     </>
   );
   
